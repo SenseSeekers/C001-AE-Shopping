@@ -17,3 +17,4 @@
     display: flex;
 }
 .social-icon a{margin: 0 0.5vw;}
+.help ul{list-style-type: none;padding-left: 0;}
