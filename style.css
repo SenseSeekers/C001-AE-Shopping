@@ -8,13 +8,15 @@
 .form-outline input{height: 5vh; padding: 0 0.5vw;}
 #srch-term{width: 8vw;}
 .input-group button{height: 5vh;}
-.h4{
+.help-li li a{
     font: 300 1.2vw/3vh arial;
     text-transform: capitalize;
-    width: 8vw;
 }
-.social-icon{
+.c-section{
     display: flex;
+    justify-content: space-around;
+    font: 300 1.2vw/3vh arial;
+    text-transform: capitalize;
 }
-.social-icon a{margin: 0 0.5vw;}
-.help ul{list-style-type: none;padding-left: 0;}
+.c-section span{text-transform: lowercase;}
+.c-section span:first-child:hover{color: slategray; text-decoration: underline;transition: 0.2s;}
