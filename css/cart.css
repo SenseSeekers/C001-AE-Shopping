@@ -15,6 +15,7 @@ body {
 
 .card {
     margin: auto;
+    margin-bottom: 33px;
     max-width: 950px;
     width: 90%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -84,7 +85,7 @@ body {
 
 .col-2,
 .col {
-    padding: 0 1vh
+    padding: 0 0vh
 }
 
 a {
@@ -173,18 +174,13 @@ a:hover {
     text-decoration: none
 }
 
-.accordion{font: 300 1rem/2.2rem arial; margin: 33px 10px;}
-.accordion-header{font: bold 1.1rem/1rem arial;}
-.payment-opimg{height: 80px; width: 100%;}
+.po{margin: 33px 11px;}
+.pheading{padding: 0;}
+.pis{list-style-type: none;padding-left: 0;}
+.pis li{font: 300 1rem/2rem arial; padding: 11px 6px;}
+.pis li ,-strong{text-transform: capitalize;}
+.pis strong{font: bold 1.1rem/2rem sans-serif;text-transform: capitalize;}
 
-.list-group-item{
-    border: none;
-    height: 50px;
-    margin: 15px 10px;
-    outline: 1px solid rgb(28, 255, 217);
-    padding: 0;
-    width: 100px;
-}
 #code {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
     background-repeat: no-repeat;
