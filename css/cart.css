@@ -1,7 +1,6 @@
 body {
     background: rgb(255, 255, 255);
     min-height: 100vh;
-    vertical-align: middle;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -14,8 +13,7 @@ body {
 }
 
 .card {
-    margin: auto;
-    margin-bottom: 33px;
+    margin: 33px auto;
     max-width: 950px;
     width: 90%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -52,12 +50,24 @@ body {
     color: rgb(65, 65, 65)
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
     .summary {
         border-top-right-radius: unset;
         border-bottom-left-radius: 1rem
     }
     .poan{margin-left: 5px;letter-spacing: 0.01rem;}
+    .nbs{width: 300px !important;flex-direction: column;}
+    .nbs select{width: 80px;}
+    .nbs input{width: 150px;}
+    .search{display: flex;width: 300px !important;}
+    .upd{margin: 25px 0px 5px -122px;}
+    .brand-img{
+      height: 3.3rem;
+      width: 8rem;
+    }
+}
+@media((min-width:769) & (max-width:1024)){
+  .nbs{width: 400px;}
 }
 
 .sli{text-decoration: none;}
@@ -99,7 +109,13 @@ a {
 }
 
 img {
-    width: 3.5rem
+  width: 3.5rem;
+}
+
+.brand-img{
+  border-radius: 0.4rem;
+  height: 4.4rem;
+    width: 11rem;
 }
 
 .back-to-shop {
@@ -183,3 +199,10 @@ a:hover {
 .pis li ,-strong{text-transform: capitalize;}
 .pis strong{font: bold 1.1rem/2rem sans-serif;text-transform: capitalize;}
 
+
+.nbs{width: 550px;display: flex;align-items: center;}
+.nbs select{margin: 0;width: 100px;}
+.nbs input{margin: 0 12px; width: 350px; height: 30px;}
+.search{display: flex;}
+.search-btn{border-radius: 0.3rem; margin-top: 0;padding: 0.6vh;}
+.py-3{padding-top: 0rem !important;}
