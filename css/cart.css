@@ -198,11 +198,11 @@ a:hover {
 .pis li{font: 300 1rem/2rem arial; padding: 11px 6px;}
 .pis li ,-strong{text-transform: capitalize;}
 .pis strong{font: bold 1.1rem/2rem sans-serif;text-transform: capitalize;}
-
-
+/* navbar search */
 .nbs{width: 550px;display: flex;align-items: center;}
 .nbs select{margin: 0;width: 100px;}
 .nbs input{margin: 0 12px; width: 350px; height: 30px;}
+/* search */
 .search{display: flex;}
 .search-btn{border-radius: 0.3rem; margin-top: 0;padding: 0.6vh;}
 .py-3{padding-top: 0rem !important;}
